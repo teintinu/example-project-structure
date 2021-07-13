@@ -5,12 +5,12 @@
         "rootDir": "./src",
         "baseUrl": ".",
         "paths": {
-            "package-1": ["../package-1"]
+            "package-1": ["../../domain/package-1"]
         }
     },
     "references": [
         {
-            "path": "../package-1"
+            "path": "../../domain/package-1"
         }
     ],
     "exclude": ["dist"]

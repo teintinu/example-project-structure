@@ -5,7 +5,7 @@
         "rootDir": "./",
         "baseUrl": ".",
         "paths": {
-            "package-1": ["./packages/package-1/src/index.ts"]
+            "package-1": ["./domain/package-1/src/index.ts"]
         }
     },
     "exclude": ["dist"]

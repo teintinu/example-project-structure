@@ -12,7 +12,8 @@
     "ci": "jest"
   },
   "workspaces": [
-    "packages/*"
+    "domain/*",
+    "application/*"
   ],
   "dependencies": {
     "@changesets/cli": "^2.16.0",
