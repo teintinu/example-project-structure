@@ -14,4 +14,7 @@ module.exports = {
         },
     },
     moduleNameMapper: pathsToModuleNameMapper(compilerOptions.paths, { prefix: '<rootDir>/' }),
+    "transform": {
+      "^.+\\.tsx?$": "esbuild-jest"
+    }
 }
