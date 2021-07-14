@@ -15,14 +15,12 @@
     "domain/*",
     "application/*"
   ],
-  "dependencies": {
+  "devDependencies": {
     "@changesets/cli": "^2.16.0",
     "@types/jest": "^26.0.24",
     "jest": "^27.0.6",
     "ts-jest": "^27.0.3",
-    "typescript": "^4.3.5"
-  },
-  "devDependencies": {
+    "typescript": "^4.3.5",
     "@typescript-eslint/eslint-plugin": "^4.28.3",
     "@typescript-eslint/parser": "^4.28.3",
     "esbuild": "^0.12.15",
@@ -33,6 +31,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-react": "^7.24.0",
-    "husky": "^7.0.1"
+    "husky": "^7.0.1",
+    "jest-cucumber-fusion": "^0.8.1"
   }
 }

@@ -6,6 +6,7 @@ This example project shows how I configure my open source projects with automate
 * Versioning / releases - ChangeSets
 * Mono repo management- Yarn workspaces
 * Package setup - TypeScript projects
-* Tests - jest with ts-jest
+* Tests - jest with esbuild and cucumber
+* Lint
 
 Blog post coming soon...
