@@ -7,9 +7,10 @@
   "scripts": {
     "lint": "eslint . --ext .ts",
     "lint-fix": "eslint . --ext .ts --fix",
-    "test": "jest",
+    "test": "jest --collect-coverage",
     "dev": "jest --watch",
-    "ci": "jest"
+    "ci": "jest --collect-coverage",
+    "build-package-2": "esbuild --bundle --tsconfig=adapters/package-2/tsconfig.json --outfile=dist/package-2.js"
   },
   "workspaces": [
     "domain/*",

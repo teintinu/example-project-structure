@@ -1,5 +1,7 @@
-import { packageName as package1Name } from 'package-1'
+import { Class1 } from 'package-1'
 
-export const packageName = 'package2'
+const packageName = 'package2'
 
-export { package1Name }
+export function dummy() {
+  return [packageName, typeof Class1].join()
+}

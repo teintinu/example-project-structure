@@ -18,5 +18,19 @@ module.exports = {
   moduleNameMapper,
   transform: {
     '^.+\\.tsx?$': 'esbuild-jest'
+  },
+  coverageReporters: [
+    'text',
+    'html',
+    'cobertura',
+    'json-summary'
+  ],
+  coverageThreshold: {
+    global: {
+      lines: 90,
+      statements: 90,
+      functions: 90,
+      branches: 90
+    }
   }
 }
